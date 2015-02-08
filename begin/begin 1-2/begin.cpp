@@ -6,13 +6,13 @@ int main ()
     int a,P,S;
 
     std::cout << "enter a " << std::endl;
-    std::cin >> a; //водится сторона квадрата
+    std::cin >> a; //РІРѕРґРёС‚СЃСЏ СЃС‚РѕСЂРѕРЅР° РєРІР°РґСЂР°С‚Р°
 
-    P=a*4; //подсчет периметра
-    S=a*a; // и площади
+    P=a*4; //РїРѕРґСЃС‡РµС‚ РїРµСЂРёРјРµС‚СЂР°
+    S=a*a; // Рё РїР»РѕС‰Р°РґРё
 
-    std::cout << "perimeter is " << P << std::endl; // вывод периметра
-    std::cout << "square is " << S << std::endl; //и площади
+    std::cout << "perimeter is " << P << std::endl; // РІС‹РІРѕРґ РїРµСЂРёРјРµС‚СЂР°
+    std::cout << "square is " << S << std::endl; //Рё РїР»РѕС‰Р°РґРё
 
     return 0;
 }
