@@ -3,18 +3,18 @@
  * «Справедливы неравенства A > 2 и B ≤ 3»
  */
 
- #include <iostream>
+#include <iostream>
 
- int main()
- {
- 	int a, b;
+int main()
+{
+	int a, b;
 
- 	std::cout << "enter a and b: ";
- 	std::cin >> a >> b;
+	std::cout << "enter a and b: ";
+	std::cin >> a >> b;
 
- 	bool c = (a > 2 && b <= 3);
+	bool c = ((a > 2) && (b <= 3));
 
- 	std::cout << "\n" << c << "\n";
+	std::cout << "\n" << c << "\n";
 
- 	return 0;
- }
+	return 0;
+}

@@ -12,7 +12,10 @@ int main()
 	std::cout << "enter a, b, c\n";
 	std::cin >> a >> b >> c;
 
-	bool d = ((a > 0 && b < 0 && c < 0) || (a < 0 && b > 0 && c < 0) || (a < 0 && b < 0 && c > 0));
+	bool d = ( (a > 0 && b <= 0 && c <= 0) ||
+			   (a <= 0 && b > 0 && c <= 0) ||
+			   (a <= 0 && b <= 0 && c > 0)
+			 );
 
 	std::cout << "\n" << d << "\n";
 

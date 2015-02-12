@@ -12,7 +12,7 @@ int main()
 	std::cout << "enter a, b: ";
 	std::cin >> a >> b;
 
-	bool c = (a % 2 == 1 && b % 2 == 1);
+	bool c = (a % 2 && b % 2);
 
 	std::cout << "\n" << c << "\n";
 

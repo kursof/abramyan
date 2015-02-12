@@ -14,10 +14,9 @@ int main()
 	std::cout << "введите координаты поля\n";
 	std::cin >> x >> y;
 
-	bool b = (x % 2 == y % 2);
+	bool b = ((x % 2) && !(y % 2));
 
 	std::cout << b << "\n";
 
 	return 0;
 }
-

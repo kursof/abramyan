@@ -8,6 +8,7 @@
 int main()
 {
 	int a, a1, a2, a3;
+	
 	std::cout << "введите трехзначное число\n";
 	std::cin >> a;
 
