@@ -12,7 +12,7 @@ int main()
 	std::cout << "enter a, b, c\n";
 	std::cin >> a >> b >> c;
 
-	bool d = (a == b || b ==c || a == c);
+	bool d = (a == b || b == c || a == c);
 
 	std::cout << "\n" << d << "\n";
 

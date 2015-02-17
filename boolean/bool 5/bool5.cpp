@@ -12,10 +12,9 @@ int main()
 	std::cout << "enter a and b: ";
 	std::cin >> a >> b;
 
-	bool c = (a >= 0 || b < -2);
+	bool c = ((a >= 0) || (b < -2));
 
 	std::cout << "\n" << c << "\n";
 
 	return 0;
-
 }

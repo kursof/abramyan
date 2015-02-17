@@ -12,7 +12,7 @@ int main()
 	std::cout << "enter a\n";
 	std::cin >> a;
 
-	bool b = (a / 100 == 0 && a % 2 == 0 && !(a / 10 == 0));
+	bool b = ((a > 9) && (a < 100) && !(a % 2));
 
 	std::cout << "\n" << b << "\n";
 

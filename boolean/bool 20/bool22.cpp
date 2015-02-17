@@ -15,7 +15,7 @@ int main()
 	a3 = a % 10;
 	a2 = (a % 100 - a % 10) / 10;
 
-	bool b = (a1 < a2 < a3 || a1 > a2 > a3);
+	bool b = (a1 < a2 && a2 < a3) || (a1 > a2 && a2 > a3);
 
 	std::cout << "\n" << b << "\n";
 

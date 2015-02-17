@@ -12,8 +12,10 @@ int main()
 	std::cout << "введите три стороны треугольника\n";
 	std::cin >> a >> b >> c;
 
-	bool d = (a * a == b * b + c * c || a * a + b * b == c * c || 
-		a * a + c * c == b * b);
+	bool d = ( (a * a == b * b + c * c) || 
+			   (a * a + b * b == c * c) || 
+			   (a * a + c * c == b * b)
+			 );
 	
 	std::cout << d << "\n";
 
