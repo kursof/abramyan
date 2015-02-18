@@ -13,12 +13,10 @@ int main()
 
 	if (a > 0)
 	{
-		std::cout << a + 1 << "\n";
+		++a;
 	}
-	else
-	{
-		std::cout << a << "\n";
-	}
+
+	std::cout << a << "\n";
 
 	return 0;
 }

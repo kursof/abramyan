@@ -14,17 +14,21 @@ int main()
 
 	if (a > 0)
 	{
-		std::cout << a + 1 << "\n";
+		++a;
 	}
 	else
+	{
 		if (a < 0)
 		{
-			std::cout << a - 2 << "\n";
+			a -= 2;
 		}
 		else
 		{
-			std::cout << 10 << "\n";
+			a = 10;
 		}
+	}
+
+	std::cout << a << '\n';
 
 	return 0;
 }

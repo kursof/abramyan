@@ -7,38 +7,49 @@
 int main()
 {
 	int a, b, c;
+	int z, x;
+	z = x = 0;
 
 	std::cout << "введите три целых числа\n";
 	std::cin >> a >> b >> c;
 
-	if (a == 0)
+	if (a > 0)
 	{
-		
+		++z;
 	}
 	else
 	{
-		a = 1;
+		if (a < 0)
+		{
+			++x;
+		}
 	}
 
-	if (b == 0)
+	if (b > 0)
 	{
-		
+		++z;
 	}
 	else
 	{
-		b = 1;
+		if (b < 0)
+		{
+			++x;
+		}
 	}
 
-	if (c == 0)
+	if (c > 0)
 	{
-
+		++z;
 	}
 	else
 	{
-		c = 1;
+		if (c < 0)
+		{
+			++x;
+		}
 	}
 
-	std::cout << a + b + c << "\n";
+	std::cout << "Положительных: " << z << "Отлицательных: " << x << '\n';
 
 	return 0;
-} 
+}

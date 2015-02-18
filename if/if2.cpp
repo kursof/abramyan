@@ -13,12 +13,17 @@ int main()
 
 	if (a > 0)
 	{
-		std::cout << a + 1 << "\n";
+		++a;
 	}
 	else
 	{
-		std::cout << a - 2 << "\n";
+		a -= 2;
 	}
+
+	// Другой вариант решения:
+	// a += (a > 0 ? 1:-2);
+
+	std::cout << a << '\n';
 
 	return 0;
 } 
