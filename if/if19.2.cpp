@@ -17,13 +17,20 @@ int main()
 
 	if (a != b)
 	{
-		std::cout << z << "\n"
+		if(b != c)
+		{
+			std::cout << ++z << "\n";
+		}
+		else
+		{
+			std::cout << z << "\n";
+		}
 	}
 	else
 	{
 		++z;
 
-		if (a != c)
+		if (b != c)
 		{
 			++z;
 
@@ -31,6 +38,8 @@ int main()
 		}
 		else
 		{
+			++z;
+
 			std::cout << ++z << "\n";
 		}
 	}
