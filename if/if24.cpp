@@ -13,16 +13,7 @@ int main()
 	std::cout << "введите x\n";
 	std::cin >> x;
 
-	if (x > 0)
-	{
-		f = 2 * sin(x);
-	}
-	else
-	{
-		f = 6 - x;
-	}
-
-	std::cout << f << "\n";
+	std::cout << (x > 0 ? 2 * sin(x):6 - x) << "\n";
 
 	return 0;
 } 

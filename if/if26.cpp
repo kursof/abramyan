@@ -15,16 +15,11 @@ int main()
 	if (x <= 0)
 	{
 		f = -x;
-	}  
+	}
 	else
-		if (x >= 2)
-		{
-			f = 4;
-		}
-		else
-		{
-			f = x * x;
-		}
+	{
+		(x < 2 ? f = x * x: f = 4);
+	}
 
 	std::cout << f << "\n";
 

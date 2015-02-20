@@ -23,14 +23,9 @@ int main()
 		f = 0;
 	}
 	else
-		if (x1 % 2 == 0)
-		{
-			f = 1;
-		}
-		else
-		{
-			f = -1;
-		}
+	{
+		(int(x) % 2 == 0 ? f = 1:f = -1);
+	}
 
 	std::cout << f << "\n";
 

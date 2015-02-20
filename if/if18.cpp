@@ -17,15 +17,16 @@ int main()
 		std::cout << 3 << "\n";
 	}
 	else
+	{
 		if (a == c)
 		{
 			std::cout << 2 << "\n";
 		}
 		else
-			if (b == c)
-			{
-				std::cout << 1 << "\n";
-			}
+		{
+			std::cout << 1 << "\n";
+		}
+	}
 
 	return 0;
 } 

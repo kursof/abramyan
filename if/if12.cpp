@@ -1,39 +1,35 @@
-/* Даны три числа. Найти наименьшее из них. 
+/* Даны три числа. Найти наименьшее из них.
  */
 
 #include <iostream>
 
 int main()
 {
-	float a, b, c;
+	float a, b, c, f;
 
 	std::cout << "введите три числа\n";
 	std::cin >> a >> b >> c;
 
-	if (a > b && a > c)
+	if (a < b && a < c)
 	{
-		std::cout << a << "\n";
+		f = a;
 	}
 	else
 	{
-		if (c > b && c > a)
+		if (b < a && b < c)
 		{
-			std::cout << c << "\n";
+			f = b;
 		}
 		else
 		{
-			if (b > a && b > c)
+			if (c < a && c < b)
 			{
-				std::cout << b << "\n";
-			}
-			else
-			{
-				std::cout << "введите разные числа\n";
+				f = c;
 			}
 		}
 	}
 
+	std::cout << f << "\n";
+
 	return 0;
 }
-
-// Сократить до одного std::cout

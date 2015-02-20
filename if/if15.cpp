@@ -10,36 +10,38 @@ int main()
 	std::cout << "введите три разных числа\n";
 	std::cin >> a >> b >> c;
 
-	if ((a > b && a < c) || (a > b && a < c))
+	if ((a > b && a < c) || (a < b && a > c))
 	{
 		d1 = a;
 	}
 	else
+	{
 		if ((b > a && b < c) || (b > c && b < a))
 		{
 			d1 = b;
 		}
 		else
-			if ((c > a && c < b) || (c > a && c < b))
-			{
-				d1 = c;
-			}
+		{		
+			d1 = c;
+		}
+	}
 
 	if (a > b && a > c)
 	{
 		d2 = a;
 	}
 	else
+	{
 		if (c > b && c > a)
 		{
 			d2 = c;
 		}
 		else
-			if (b > a && b > c)
-			{
-				d2 = b;
-			}
-			
+		{
+			d2 = b;
+		}
+	}		
+	
 	std::cout << d1 + d2 << "\n";
 
 	return 0;

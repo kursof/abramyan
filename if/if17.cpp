@@ -13,20 +13,20 @@ int main()
 	std::cout << "введите три различных числа\n";
 	std::cin >> a >> b >> c;
 
-	if (a > b && b > c)
+	if ((a > b && b > c) || (a < b && a < c))
 	{
-		std::cout << a * 2 << "\n" << b * 2 << "\n" << c * 2 << "\n";
+		a *= 2;
+		b *= 2;
+		c *= 2;
 	}
 	else
-		if (a < b && a < c)
-		{
-			std::cout << a * 2 << "\n" << b * 2 << "\n" << c * 2 << "\n";		
-		}
-		else
-			{
-				std::cout << a * (-1) << "\n" << b * (-1) << "\n" 
-					<< c * (-1) << "\n";
-			}
+	{
+		a *= -1;
+		b *= -1;
+		c *= -1;
+	}
+
+	std::cout << a << "\n" << b << "\n" << c << "\n";
 
 	return 0;
 }
