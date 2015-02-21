@@ -27,6 +27,4 @@ int main()
 	std::cout << f << "\n";
 
 	return 0;
-} 
-
-// Сократить до одного std::cout
+}

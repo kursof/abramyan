@@ -2,6 +2,7 @@
  */
 
 #include <iostream>
+#include <cmath>
 
 int main()
 {
@@ -29,7 +30,10 @@ int main()
 		}
 	}
 
+
 	std::cout << f << "\n";
 
 	return 0;
 }
+// Можно еще вот так решить:
+// f = std::min(a, std::min(b, c));

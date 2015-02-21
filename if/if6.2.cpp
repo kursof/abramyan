@@ -12,7 +12,5 @@ int main()
 
 	std::cout << (a > b ? a:b) << "\n";
 
-	//удобно и в одну строку
-
 	return 0;
 }

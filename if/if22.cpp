@@ -44,3 +44,4 @@ int main()
 	return 0;			
 }
 
+// Сократить до 2 std::cout

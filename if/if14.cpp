@@ -3,6 +3,7 @@
  */
 
 #include <iostream>
+#include <cmath>
 
 int main()
 {
@@ -56,5 +57,6 @@ int main()
 	return 0;
 } 
 
-// Поставить скобки
-// Сократить до одного std::cout
+// Можно еще вот так решить:
+// f = std::min(a, std::min(b, c));
+// g = std::max(a, std::max(b, c));

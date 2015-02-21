@@ -16,6 +16,4 @@ int main()
 	std::cout << (x > 0 ? 2 * sin(x):6 - x) << "\n";
 
 	return 0;
-} 
-
-// Используй тернарный  if
+}

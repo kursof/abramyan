@@ -26,9 +26,7 @@ int main()
 		c *= -1;
 	}
 
-	std::cout << a << "\n" << b << "\n" << c << "\n";
+	std::cout << a << " " << b << " " << c << "\n";
 
 	return 0;
 }
-
-// Сократить до одного std::cout

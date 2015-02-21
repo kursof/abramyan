@@ -36,7 +36,7 @@ int main()
 	}
 	else
 	{
-		(y1 == y3 ? y = y2:y = y1);
+		y = (y1 == y3 ? y2:y1);
 	}
 
 	std::cout << x << ", " << y << "\n";
