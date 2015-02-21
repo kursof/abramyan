@@ -6,30 +6,31 @@
 
 int main()
 {
-	float a, b, c;
+	float a, b, c, f;
 
 	std::cout << "введите три числа\n";
 	std::cin >> a >> b >> c;
 
-	if ((a > b && a < c) || (a > b && a < c))
+	if ((a > b && a < c) || (a < b && a > c))
 	{
-		std::cout << a << "\n";
+		f = a;
 	}
 	else
 	{
-		if ((b > a && b < c) || (b > c && b < a))
+		if ((b > a && b < c) || (b < c && b > a))
 		{
-			std::cout << b << "\n";
+			f = b;
 		}
 		else
-			if ((c > a && c < b) || (c > a && c < b))
+		{	
+			if ((c > a && c < b) || (c < a && c > b))
 			{
-				std::cout << c << "\n";
+				f = c;
 			}
+		}
 	}
 
-	return 0;
-} 
+	std::cout << f << "\n";
 
-// Поставить скобки
-// Сократить до одного std::cout
+	return 0;
+}

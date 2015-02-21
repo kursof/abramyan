@@ -3,55 +3,60 @@
  */
 
 #include <iostream>
+#include <cmath>
 
 int main()
 {
 	float a, b, c;
+	float f, g;
 
 	std::cout << "введите три различных числа\n";
 	std::cin >> a >> b >> c;
 
 	if (a < b && a < c)
 	{
-		std::cout << a << "\n";
+		f = a;
 	}
 	else
+	{
 		if (c < b && c < a)
 		{
-			std::cout << c << "\n";
+			f = c;
 		}
 		else
-			if (b < a && b < c)
+		{
+  			if (b < a && b < c)
 			{
-				std::cout << b << "\n";
+				f = b;
 			}
-			else
-			{
-				std::cout << "введите разные числа\n";
-			}
+		}
+	}
 
 
 	if (a > b && a > c)
 	{
-		std::cout << a << "\n";
+		g = a;
 	}
 	else
+	{
 		if (c > b && c > a)
 		{
-			std::cout << c << "\n";
+			g = c;
 		}
 		else
+		{
 			if (b > a && b > c)
 			{
-				std::cout << b << "\n";
+				g = b;
 			}
-			else
-			{
-				std::cout << "введите разные числа\n";
-			}
+		}
+	}
+
+	std::cout << f << "\n" << g << "\n";
 	
 	return 0;
 } 
 
-// Поставить скобки
-// Сократить до одного std::cout
+// Можно еще вот так решить:
+// f = std::min(a, std::min(b, c));
+// g = std::max(a, std::max(b, c));

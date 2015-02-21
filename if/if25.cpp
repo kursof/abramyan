@@ -7,21 +7,21 @@
 
 int main()
 {
-	int x;
+	int x, f;
 
 	std::cout << "введите x\n";
 	std::cin >> x;
 
 	if (x < -2 && x > 2)
 	{
-		std::cout << 2 * x << "\n";
+		f = 2 * x;
 	}
 	else
 	{
-		std::cout << (-3) * x << "\n";
+		f = -3 * x;
 	}
+
+	std::cout << f << "\n";
 
 	return 0;
 }
-
-// Сократить до одного std::cout

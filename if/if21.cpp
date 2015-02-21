@@ -11,31 +11,28 @@
 int main()
 {
 	int x, y;
+	int f;
 
 	std::cout << "введите координаты точки\n";
 	std::cin >> x >> y;
 
 	if (x == 0 && y == 0)
 	{
-		std::cout << 0 << "\n";
+		f = 0;
 	}
 	else
+	{
 		if (x == 0)
 		{
-			std::cout << 2 << "\n";
+			f = 2;
 		}
 		else
-			if (y == 0)
-			{
-				std::cout << 1 << "\n";
-			}
-			else
-			{
-				std::cout << 3 << "\n";
-			}
+		{
+			f = (y != 0 ? 3:1);
+		}
+	}
+
+	std::cout << f << "\n";
 
 	return 0;
-} 
-
-// Поставить скобки 
-// Сократить до одного std::cout
+}

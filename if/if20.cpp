@@ -8,44 +8,49 @@
 
 int main()
 {
-	float a, b, c;
+	float a, b, c, f;
 
 	std::cout << "введите три точки\n";
 	std::cin >> a >> b >> c;
 
 	if (b > a && c > a && b > c)
 	{
-		std::cout << fabs(c - a) << "\n";
+		f = fabs(c - a);
 	}
 	else
+	{
 		if (b > a && c > a && b < c)
 		{
-			std::cout << fabs(b - a) << "\n";
+			f = fabs(b - a);
 		}
 		else
+		{
 			if (((b > a && c < a) || (b < a && c > a)) && fabs(c) > fabs(b))
 			{
-				std::cout << fabs(b - a) << "\n";
+				f = fabs(b - a);
 			}
 			else
+			{
 				if (((b > a && c < a) || (b < a && c > a)) && fabs(c) < fabs(b))
 				{
-					std::cout << fabs(c - a) << "\n";
+					f = fabs(c - a);
 				}
 				else
+				{
 					if (b < a && c < a && b < c)
 					{
-						std::cout << fabs(c - a) << "\n";
+						f = fabs(c - a);
 					}
 					else
-						if (b < a && c < a && b > c)
-						{
-							std::cout << fabs(b - a) << "\n";
-						}
-						
+					{
+							f = fabs(b - a);
+					}
+				}		
+			}					
+		}
+	}
+
+	std::cout << f << "\n";						
 
 	return 0;
 }
-
-// Поставить скобки 
-// Сократить до одного std::cout

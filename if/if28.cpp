@@ -10,21 +10,21 @@
 
 int main()
 {
-	int x;
+	int x, f;
 
 	std::cout << "введите год\n";
 	std::cin >> x;
 
 	if (x % 4 == 0 && !(x % 100 == 0 && x % 400 != 0))
 	{
-		std::cout << 366 << "\n";
+		f = 366;
 	}
 	else
 	{
-		std::cout << 365 << "\n";
+		f = 365;
 	}
 
-	return 0;
-} 
+	std::cout << f << "\n";
 
-// Сократить до одного std::cout
+	return 0;
+}

@@ -16,16 +16,19 @@ int main()
 		std::cout << 1 << "\n";
 	}
 	else
+	{
 		if (x < 0 && y > 0)
 		{
 			std::cout << 2 << "\n";
 		}
 		else
+		{	
 			if (x < 0 && y < 0)
 			{
 				std::cout << 3 << "\n";
 			}
 			else
+			{			
 				if (x > 0 && y < 0)
 				{
 					std::cout << 4 << "\n";
@@ -34,7 +37,11 @@ int main()
 				{
 					std::cout << "точка находится на осях или в центре координат\n";
 				}
+			}
+		}
+	}
 
 	return 0;			
 }
 
+// Сократить до 2 std::cout
