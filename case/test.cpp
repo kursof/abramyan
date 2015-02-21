@@ -27,6 +27,8 @@ int main()
 		std::cout << "Saturday\n";
 		break;
 	case 7:
+	case 8:
+	case 9:
 		std::cout << "Sunday\n";
 		break;
 	default:
