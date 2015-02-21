@@ -33,6 +33,7 @@ int main()
 		break;
 	default:
 		std::cout << "What?oO"
+		break;
 	}
 
 	return 0;
