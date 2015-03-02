@@ -20,24 +20,24 @@ int main()
 
 	switch (k)
 	{
-		case 1:
-				m1 = m;
-				break;
-		case 2:
-				m1 = m / 1000000;
-				break;
-		case 3:
-				m1 = m / 1000;
-				break;
-		case 4:
-				m1 = m * 1000;
-				break;
-		case 5:
-				m1 = m * 100;
-				break;
-		default:
-				std::cout << "ошибка\n";
-				break;
+	case 1:
+			m1 = m;
+			break;
+	case 2:
+			m1 = m / 1000000;
+			break;
+	case 3:
+			m1 = m / 1000;
+			break;
+	case 4:
+			m1 = m * 1000;
+			break;
+	case 5:
+			m1 = m * 100;
+			break;
+	default:
+			std::cout << "ошибка\n";
+			break;
 	}
 
 	std::cout << m1 << "\n";

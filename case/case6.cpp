@@ -20,23 +20,24 @@ int main()
 
 	switch (k)
 	{
-		case 1:
-				l1 = l / 10;
-				break;
-		case 2:
-				l1 = l * 1000;
-				break;
-		case 3:
-				l1 = l;
-				break;
-		case 4:
-				l1 = l / 1000;
-				break;
-		case 5:
-				l1 = l / 100;
-				break;
-		default:
-				std::cout << "ошибка\n";
+	case 1:
+			l1 = l / 10;
+			break;
+	case 2:
+			l1 = l * 1000;
+			break;
+	case 3:
+			l1 = l;
+			break;
+	case 4:
+			l1 = l / 1000;
+			break;
+	case 5:
+			l1 = l / 100;
+			break;
+	default:
+			std::cout << "ошибка\n";
+			break;
 	}
 
 	std::cout << l1 << "\n";

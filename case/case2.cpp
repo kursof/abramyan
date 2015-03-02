@@ -15,24 +15,24 @@ int main()
 
 	switch (K)
 	{
-		case 1:
-				std::cout << "плохо\n";
-				break;
-		case 2:
-				std::cout << "неудовлетворительно\n";
-				break;
-		case 3:
-				std::cout << "удовлетворительно\n";
-				break;
-		case 4:
-				std::cout << "хорошо\n";
-				break;
-		case 5:
-				std::cout << "отлично\n";
-				break;
-		default:
-				std::cout << "ошибка\n";
-				break;
+	case 1:
+			std::cout << "плохо\n";
+			break;
+	case 2:
+			std::cout << "неудовлетворительно\n";
+			break;
+	case 3:
+			std::cout << "удовлетворительно\n";
+			break;
+	case 4:
+			std::cout << "хорошо\n";
+			break;
+	case 5:
+			std::cout << "отлично\n";
+			break;
+	default:
+			std::cout << "ошибка\n";
+			break;
 	}
 
 

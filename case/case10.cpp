@@ -7,6 +7,8 @@
  * Вывести направление робота после выполнения полученной команды.
  */
 
+//первая программа на c++ такого размера
+
 #include <iostream>
 #include <cmath>
 
@@ -24,105 +26,105 @@ int main()
 
 	switch (c)
 	{
-		case 'n':
-				if (n == 0)
-				{
-					c = 'n';
-				}
-				else
-				{	
-					if (n == 1)
-					{
-						c = 'w';
-					}
-					else
-					{
-						if (n == -1)
-						{
-							c = 'e';
-						}
-						else
-						{
-							std::cout << 'ошибка\n';
-						}
-					}
-				}
-				break;
-		case 'w':
-				if (n == 0)
+	case 'n':
+			if (n == 0)
+			{
+				c = 'n';
+			}
+			else
+			{	
+				if (n == 1)
 				{
 					c = 'w';
 				}
 				else
-				{	
-					if (n == 1)
-					{
-						c = 's';
-					}
-					else
-					{
-						if (n == -1)
-						{
-							c = 'n';
-						}
-						else
-						{
-							std::cout << 'ошибка\n';
-						}
-					}
-				}
-				break;
-		case 's':
-				if (n == 0)
 				{
-					c = 's';
-				}
-				else
-				{	
-					if (n == 1)
+					if (n == -1)
 					{
 						c = 'e';
 					}
 					else
 					{
-						if (n == -1)
-						{
-							c = 'w';
-						}
-						else
-						{
-							std::cout << 'ошибка\n';
-						}
+						std::cout << 'ошибка\n';
 					}
 				}
-				break;
-		case 'e':
-				if (n == 0)
+			}
+			break;
+	case 'w':
+			if (n == 0)
+			{
+				c = 'w';
+			}
+			else
+			{	
+				if (n == 1)
 				{
-					c = 'e';
+					c = 's';
 				}
 				else
-				{	
-					if (n == 1)
+				{
+					if (n == -1)
 					{
 						c = 'n';
 					}
 					else
 					{
-						if (n == -1)
-						{
-							c = 's';
-						}
-						else
-						{
-							std::cout << 'ошибка\n';
-						}
+						std::cout << 'ошибка\n';
 					}
 				}
-				break;
-		default:
-				std::cout << "error\n";
-				break;
+			}
+			break;
+	case 's':
+			if (n == 0)
+			{
+				c = 's';
+			}
+			else
+			{	
+				if (n == 1)
+				{
+					c = 'e';
+				}
+				else
+				{
+					if (n == -1)
+					{
+						c = 'w';
+					}
+					else
+					{
+						std::cout << 'ошибка\n';
+					}
+				}
+			}
+			break;
+	case 'e':
+			if (n == 0)
+			{
+				c = 'e';
+			}
+			else
+			{	
+				if (n == 1)
+				{
+					c = 'n';
+				}
+				else
+				{
+					if (n == -1)
+					{
+						c = 's';
+					}
+					else
+					{
+						std::cout << 'ошибка\n';
+					}
+				}
+			}
+			break;
+	default:
+			std::cout << "error\n";
+			break;
 	}
 				
 	std::cout << "\n" << c << "\n";

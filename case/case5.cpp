@@ -20,21 +20,21 @@ int main()
 
 	switch (sign)
 	{
-		case 1:
-				c = a + b;
-				break;
-		case 2:
-				c = a - b;
-				break;
-		case 3:
-				c = a * b;
-				break;
-		case 4:
-				c = a / b;
-				break;
-		default:
-				std::cout << "ошибка\n";
-				break;
+	case 1:
+			c = a + b;
+			break;
+	case 2:
+			c = a - b;
+			break;
+	case 3:
+			c = a * b;
+			break;
+	case 4:
+			c = a / b;
+			break;
+	default:
+			std::cout << "ошибка\n";
+			break;
 	}
 
 	std::cout << c << "\n";
