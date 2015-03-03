@@ -29,7 +29,7 @@ int main()
 
 	switch (c)
 	{
-	case 'n':
+		case 'n':
 			if (n == 0)
 			{
 				c = 'n';
@@ -60,7 +60,7 @@ int main()
 				}
 			}
 			break;
-	case 'w':
+		case 'w':
 			if (n == 0)
 			{
 				c = 'w';
@@ -91,7 +91,7 @@ int main()
 				}
 			}
 			break;
-	case 's':
+		case 's':
 			if (n == 0)
 			{
 				c = 's';
@@ -122,7 +122,7 @@ int main()
 				}
 			}
 			break;
-	case 'e':
+		case 'e':
 			if (n == 0)
 			{
 				c = 'e';
@@ -149,7 +149,7 @@ int main()
 				}
 			}
 			break;
-	default:
+		default:
 			std::cout << "error\n";
 			break;
 	}

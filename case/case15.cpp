@@ -21,7 +21,7 @@ int main()
 
 	switch (k)
 	{
-	case 6:
+		case 6:
 			if (m == 1)
 			{
 				std::cout << "шестерка пик\n";
@@ -48,7 +48,7 @@ int main()
 				}
 			}
 			break;
-	case 7:
+		case 7:
 			if (m == 1)
 			{
 				std::cout << "семерка пик\n";
@@ -75,7 +75,7 @@ int main()
 				}
 			}
 			break;
-	case 8:
+		case 8:
 			if (m == 1)
 			{
 				std::cout << "восьмерка пик\n";
@@ -102,7 +102,7 @@ int main()
 				}
 			}
 			break;
-	case 9:
+		case 9:
 			if (m == 1)
 			{
 				std::cout << "девятка пик\n";
@@ -129,7 +129,7 @@ int main()
 				}
 			}
 			break;
-	case 10:
+		case 10:
 			if (m == 1)
 			{
 				std::cout << "десятка пик\n";
@@ -156,7 +156,7 @@ int main()
 				}
 			}
 			break;
-	case 11:
+		case 11:
 			if (m == 1)
 			{
 				std::cout << "валет пик\n";
@@ -183,7 +183,7 @@ int main()
 				}
 			}
 			break;
-	case 12:
+		case 12:
 			if (m == 1)
 			{
 				std::cout << "дама пик\n";
@@ -210,7 +210,7 @@ int main()
 				}
 			}
 			break;
-	case 13:
+		case 13:
 			if (m == 1)
 			{
 				std::cout << "король пик\n";
@@ -237,7 +237,7 @@ int main()
 				}
 			}
 			break;
-	case 14:
+		case 14:
 			if (m == 1)
 			{
 				std::cout << "туз пик\n";
@@ -264,7 +264,7 @@ int main()
 				}
 			}
 			break;
-	default:
+		default:
 			std::cout << "error\n";
 			break;
 	}

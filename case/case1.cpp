@@ -14,28 +14,28 @@ int main()
 
 	switch (x)
 	{
-	case 1:
+		case 1:
 			std::cout << "понедельник\n";
 			break;
-	case 2:
+		case 2:
 			std::cout << "вторник\n";
 			break;
-	case 3:
+		case 3:
 			std::cout << "среда\n";
 			break;
-	case 4:
+		case 4:
 			std::cout << "четверг\n";
 			break;
-	case 5:
+		case 5:
 			std::cout << "пятница\n";
 			break;
-	case 6:
+		case 6:
 			std::cout << "суббота\n";
 			break;
-	case 7:
+		case 7:
 			std::cout << "воскресенье\n";
 			break;
-	default:
+		default:
 			std::cout << "введите другое число\n";
 			break;
 	}
@@ -43,16 +43,4 @@ int main()
 		
 
 	return 0;
-} 
-
-
-
-
-
-
-
-
-
-
-
-
+}
