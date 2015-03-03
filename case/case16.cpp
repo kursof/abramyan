@@ -18,58 +18,58 @@ int main()
 
 	switch (intA)
 	{
-	case 2:
+		case 2:
 			std::cout << "двадцать ";
 			break;
-	case 3:
+		case 3:
 			std::cout << "тридцать ";
 			break;
-	case 4:
+		case 4:
 			std::cout << "сорок ";
 			break;
-	case 5:
+		case 5:
 			std::cout << "пятьдесят ";
 			break;
-	case 6:
+		case 6:
 			std::cout << "шестьдесят ";
 			break;
-	default:
+		default:
 			std::cout << "error\n";
 			break;
 	}
 
 	switch (modA)
 	{
-	case 0:
+		case 0:
 			std::cout << "лет\n";
 			break;
-	case 1:
+		case 1:
 			std::cout << "один год\n";
 			break;
-	case 2:
+		case 2:
 			std::cout << "два года\n";
 			break;
-	case 3:f
+		case 3:f
 			std::cout << "три года\n";
 			break;
-	case 4:
+		case 4:
 			std::cout << "четыре года\n";
 			break;
-	case 5:
+		case 5:
 			std::cout << "пять лет\n";
 			break;
-	case 6:
+		case 6:
 			std::cout << "шесть лет\n";
 			break;
-	case 7:
+		case 7:
 			std::cout << "семь лет\n";
 			break;
-	case 8:
+		case 8:
 			std::cout << "восемь лет\n";
 			break;
-	case 9:
+		case 9:
 			std::cout << "девять лет\n";
-	default:
+		default:
 			std::cout << "error\n";
 			break;
 	}

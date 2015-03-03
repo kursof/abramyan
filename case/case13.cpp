@@ -21,27 +21,27 @@ int main()
 
 	switch (n)
 	{
-	case 1:	
+		case 1:	
 			std::cout << "c = " << sqrt(2) * num << "\n";
 			std::cout << "h = " << sqrt(2) * (num / 2) << "\n";
 			std::cout << "s = " << sqrt(2) * (num / 4) << "\n";
 			break;
-	case 2:
+		case 2:
 			std::cout << "a = " << num / (sqrt(2)) << "\n";
 			std::cout << "h = " << num / 2 << "\n";
 			std::cout << "s = " << pow(num, 2) / 4 << "\n";
 			break;
-	case 3:
+		case 3:
 			std::cout << "a = " << (2 * num) / (sqrt(2)) << "\n";
 			std::cout << "c = " << 2 * num << "\n";
 			std::cout << "s = " << 2 * pow(num, 2) << "\n";
 			break;
-	case 4:
+		case 4:
 			std::cout << "a = " << sqrt(2 * num) << "\n";
 			std::cout << "c = " << sqrt(2) * sqrt(2 * num) << "\n";
 			std::cout << "h = " << (sqrt(2) / 2) * sqrt(2 * num) << "\n";
 			break;
-	default:
+		default:
 			std::cout << "error\n"; 
 			break;
 	}

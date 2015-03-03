@@ -20,22 +20,22 @@ int main()
 
 	switch (k)
 	{
-	case 1:
+		case 1:
 			m1 = m;
 			break;
-	case 2:
+		case 2:
 			m1 = m / 1000000;
 			break;
-	case 3:
+		case 3:
 			m1 = m / 1000;
 			break;
-	case 4:
+		case 4:
 			m1 = m * 1000;
 			break;
-	case 5:
+		case 5:
 			m1 = m * 100;
 			break;
-	default:
+		default:
 			std::cout << "ошибка\n";
 			break;
 	}

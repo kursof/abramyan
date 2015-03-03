@@ -21,34 +21,34 @@ int main()
 	{
 		switch (A)
 		{
-		case 11:
+			case 11:
 				std::cout << "одиннадцать ";
 				break;
-		case 12:
+			case 12:
 				std::cout << "двенадцать ";
 				break;
-		case 13:
+			case 13:
 				std::cout << "тринадцать ";
 				break;
-		case 14:
+			case 14:
 				std::cout << "четырнадцать ";
 				break;
-		case 15:
+			case 15:
 				std:: cout << "пятнадцать ";
 				break;
-		case 16:
+			case 16:
 				std::cout << "шестнадцать ";
 				break;
-		case 17:
+			case 17:
 				std::cout << "семнадцать ";
 				break;
-		case 18:
+			case 18:
 				std::cout << "восемнадцать ";
 				break;
-		case 19: 
+			case 19: 
 				std::cout << "девятнадцать ";
 				break;
-		default:
+			default:
 				std::cout << "error\n";
 		}
 		
@@ -59,16 +59,16 @@ int main()
 	{
 		switch (intA)
 		{	
-		case 2:
+			case 2:
 				std::cout << "двадцать ";
 				break;
-		case 3:
+			case 3:
 				std::cout << "тридцать ";
 				break;
-		case 4:
+			case 4:
 				std::cout << "сорок ";
 				break;
-		default:
+			default:
 				std::cout << "error\n";
 				break;
 		}
@@ -76,36 +76,36 @@ int main()
 
 		switch (modA)
 		{
-		case 0:
+			case 0:
 				std::cout << "учебных заданий\n";
 				break;
-		case 1:
+			case 1:
 				std::cout << "одно учебное задание\n";
 				break;
-		case 2:
+			case 2:
 				std::cout << "два учебных задания\n";
 				break;
-		case 3:
+			case 3:
 				std::cout << "три учебных задания\n";
 				break;
-		case 4:
+			case 4:
 				std::cout << "четыре учебных задания\n";
 				break;
-		case 5:
+			case 5:
 				std::cout << "пять учебных заданий\n";
 				break;
-		case 6:
+			case 6:
 				std::cout << "шесть учебных заданий\n";
 				break;
-		case 7:
+			case 7:
 				std::cout << "семь учебных заданий\n";
 				break;
-		case 8:
+			case 8:
 				std::cout << "восемь учебных заданий\n";
 				break;
-		case 9:
+			case 9:
 				std::cout << "девять учебных заданий\n";
-		default:
+			default:
 				std::cout << "error\n";
 				break;
 		}
