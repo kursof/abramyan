@@ -15,4 +15,5 @@ int main()
 	std::cout << "введите год\n"; std::cin >> y;
 
 	
+	
 }
