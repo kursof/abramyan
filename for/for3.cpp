@@ -11,9 +11,9 @@ int main()
 
 	std::cout << "введите два числа\n", std::cin >> a >> b;
 
-	for (int i = b; i >= a; --i)
+	for (int i = b - 1; i >= a + 1; --i)
 	{
-		std::cout << i << "\n";
+		std::cout << i << " ";
 	}
 
 	std::cout << b - a + 1 << "\n";

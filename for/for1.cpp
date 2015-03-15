@@ -12,7 +12,7 @@ int main()
 
 	for (int i = 1; i <= n; ++i)
 	{
-		std::cout << k << "\n";
+		std::cout << k << " ";
 	}
 
 	return 0;

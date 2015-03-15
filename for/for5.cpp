@@ -11,10 +11,12 @@ int main()
 	std::cout << "введите стоимость одного килограмма конфет\n";
 	std::cin >> a;
 
-	for (float i = 10; i >= 1; --i) // при int i в дальнейшем получается ерунда из-за деления
+	for (float i = 10; i >= 1; --i)
 	{
-		std::cout << a * (i / 10) << "\n";	
+		std::cout << a * (i / 10) << ' ';	
 	}
+
+	std::cout << '\n';
 
 	return 0;
 }

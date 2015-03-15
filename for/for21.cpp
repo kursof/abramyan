@@ -17,7 +17,7 @@ int main()
 
 	for (int i = 1; i <= n; ++i)
 	{
-		sum += (1 / (nf *= i));
+		sum += (1 / (nf *= i)); // Omg O_O
 	}
 
 	std::cout << sum << "\n";
