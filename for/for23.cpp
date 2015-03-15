@@ -18,6 +18,7 @@ int main()
 	for (int i = 0; i < n; i += 2)
 	{
 		sum += pow((-1), i) * pow(x, 2 * i + 1) / (nf *= (i + 2) * (i + 1));
+		// O_O
 	}
 
 	std::cout << sum << "\n";

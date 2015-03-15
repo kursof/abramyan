@@ -19,4 +19,4 @@ int main()
 	std::cout << pr << "\n";
 
 	return 0;
-} 
+}

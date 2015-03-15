@@ -13,8 +13,10 @@ int main()
 
 	for (float i = 2; i <= 10; i+=2)
 	{ 
-		std::cout << a + (i / 10) << "\n";
+		std::cout << a + (i / 10) << " ";
 	}
+
+	std::cout << '\n';
 
 	return 0;
 }
