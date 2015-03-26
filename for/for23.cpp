@@ -20,7 +20,6 @@ int main()
 	for (int i = 1; i < 2 * n + 1; ++i)
 	{
 		sum += (pow(x, 2 * i + 1) * pow((-1), i)) / (nf *= (2 * i * (2 * i + 1)));
-		// O_O
 	}
 
 	std::cout << sum << "\n";
