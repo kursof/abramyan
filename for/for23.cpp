@@ -15,9 +15,11 @@ int main()
 	std::cout << "введите x\n", std::cin >> x;
 	std::cout << "введите n\n", std::cin >> n;
 
-	for (int i = 0; i < n; i += 2)
+	sum = x;
+
+	for (int i = 1; i < 2 * n + 1; ++i)
 	{
-		sum += pow((-1), i) * pow(x, 2 * i + 1) / (nf *= (i + 2) * (i + 1));
+		sum += (pow(x, 2 * i + 1) * pow((-1), i)) / (nf *= (2 * i * (2 * i + 1)));
 		// O_O
 	}
 
