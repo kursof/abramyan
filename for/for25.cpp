@@ -8,11 +8,13 @@
 
 int main()
 {
-	float ln = 0, x;
+	float x;
 	int n;
 
 	std::cout << "введите вещественное число\n", std::cin >> x;
 	std::cout << "введите целое число\n", std::cin >> n;
+
+	float  ln = 0;
 
 	for (int i = 1; i <= n; ++i)
 	{

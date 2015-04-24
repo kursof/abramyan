@@ -8,13 +8,13 @@
 
 int main()
 {
-	float x, nf = 1, sum;
+	float x;
 	int n;
 
 	std::cout << "введите вещественное число\n", std::cin >> x;
 	std::cout << "введите целое число\n", std::cin >> n;
 
-	sum = 1;
+	float sum = 1, nf = 1;
 
 	for (int i = 1; i < n; ++i)
 	{
