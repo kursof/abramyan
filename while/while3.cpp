@@ -13,7 +13,7 @@ int main()
 	std::cout << "n: ", std::cin >> n;
 	std::cout << "k: ", std::cin >> k;
 
-	while((n - k) >= 0)
+	while ((n - k) >= 0)
 	{
 		n -= k;
 		++i;

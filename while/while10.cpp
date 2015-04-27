@@ -17,6 +17,8 @@ int main()
 	{
 		++k;
 	}
+	
+	// while (pow(3, k++) < n);
 
 	std::cout << k - 1 << "\n";
 
